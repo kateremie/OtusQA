@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="7952" started-at="2018-04-20T10:47:58Z" finished-at="2018-04-20T10:48:06Z">
+    <groups>
+    </groups>
+    <test name="Nopackage" duration-ms="7952" started-at="2018-04-20T10:47:58Z" finished-at="2018-04-20T10:48:06Z">
+      <class name="Homework3">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Homework3@13fee20c]" name="beforeClass" is-config="true" duration-ms="3773" started-at="2018-04-20T10:47:58Z" finished-at="2018-04-20T10:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="test()[pri:0, instance:Homework3@13fee20c]" name="test" duration-ms="3426" started-at="2018-04-20T10:48:01Z" finished-at="2018-04-20T10:48:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Homework3@13fee20c]" name="afterClass" is-config="true" duration-ms="732" started-at="2018-04-20T10:48:05Z" finished-at="2018-04-20T10:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Homework3 -->
+    </test> <!-- Nopackage -->
+  </suite> <!-- Suite1 -->
+</testng-results>
