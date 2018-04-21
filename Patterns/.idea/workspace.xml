@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae7e3c1-2481-4dea-9938-72b2ada77c72" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/constants/cons.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../WebDriver Настройка/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../WebDriver Настройка/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Webdriver/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/FirstTest.iml" afterPath="$PROJECT_DIR$/../Webdriver/FirstTest.iml" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/pom.xml" afterPath="$PROJECT_DIR$/../Webdriver/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/src/test/java/tests/Homework1.java" afterPath="$PROJECT_DIR$/../Webdriver/src/test/java/tests/Homework1.java" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/target/test-classes/tests/FirstTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../Webdriver/target/test-classes/tests/Homework1.class" afterPath="$PROJECT_DIR$/../Webdriver/target/test-classes/tests/Homework1.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Homework3.java" afterPath="$PROJECT_DIR$/src/test/java/Homework3.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,35 +21,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Homework3.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Homework3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+            <state relative-caret-position="300">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
               <folding>
-                <element signature="e#2361#2362#0" expanded="true" />
-                <element signature="e#2390#2391#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2272#2273#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,18 +58,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/PageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/PageObjects/Base/PageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/AbstractFactory/BrowserFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/AbstractFactory/ChromeFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/Singleton/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/Homework2.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.fxml" />
-        <option value="$PROJECT_DIR$/src/test/java/Homework3.java" />
         <option value="$PROJECT_DIR$/src/test/resources/testng.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/constants/cons.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Homework3.java" />
       </list>
     </option>
   </component>
@@ -124,7 +101,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -161,19 +140,33 @@
               <item name="Patterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="PageObjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Patterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Patterns" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../iOSTests" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -398,43 +391,44 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 28m 20s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 47m 53s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 49m 07s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 49m 43s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 51m 09s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 17h 51m 22s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework2_test - 2018.04.19 at 22h 34m 41s.xml">
-      <configuration name="Homework2.test" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Homework3 - 2018.04.20 at 13h 47m 26s.xml">
+    <history-entry file="Homework3 - 2018.04.20 at 22h 20m 39s.xml">
       <configuration name="Homework3" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Homework3 - 2018.04.20 at 16h 12m 41s.xml">
+    <history-entry file="Homework3 - 2018.04.20 at 22h 25m 16s.xml">
       <configuration name="Homework3" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Homework3 - 2018.04.20 at 16h 13m 38s.xml">
+    <history-entry file="Homework3 - 2018.04.20 at 22h 32m 09s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 22h 48m 49s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 22h 49m 38s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 22h 56m 16s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 23h 00m 06s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 23h 04m 08s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 23h 11m 40s.xml">
+      <configuration name="Homework3" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Homework3 - 2018.04.20 at 23h 12m 51s.xml">
       <configuration name="Homework3" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287827" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32993197" sideWeight="0.50625" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -442,7 +436,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31626847" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37641722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -466,13 +460,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/Base/PageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Homework2.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/Singleton/WebDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -728,47 +715,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="49" column="5" lean-forward="false" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Homework2.java" />
     <entry file="file://$PROJECT_DIR$/Homework3.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="0">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -776,18 +734,66 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ConfirmationPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="method#submit#0;class#MainPage#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/constants/cons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="24" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/ReservePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#968#969#0" expanded="false" />
+            <element signature="e#1042#1043#0" expanded="false" />
+            <element signature="e#1207#1208#0" expanded="false" />
+            <element signature="e#1249#1250#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PageObjects/PurchasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Homework3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
           <folding>
-            <element signature="e#2361#2362#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
           </folding>
         </state>
       </provider>

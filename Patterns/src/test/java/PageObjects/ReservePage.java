@@ -4,31 +4,39 @@ import PageObjects.Base.PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.util.List;
 
 import static org.testng.Assert.assertEquals;
 
 public class ReservePage extends PageObject {
+
+    @FindBy(css = "table>thead>tr>th:nth-of-type(4)")
+    private WebElement from;
+
+    @FindBy(css = "table>thead>tr>th:nth-of-type(5)")
+    private WebElement to;
+
+    @FindBy(xpath = "//tr[3]/td/input")
+    private WebElement chooseButton;
+
+    @FindBy(xpath = "//tr[3]/td[2]")
+    private WebElement flightNum;
+
+    @FindBy(xpath = "//tr[3]/td[3]")
+    private WebElement airline;
+
+    @FindBy(xpath = "//tr[3]/td[6]")
+    private WebElement price;
+
+
     public ReservePage(WebDriver driver) {
         super(driver);
-
-        from = driver.findElement(By.cssSelector("table>thead>tr>th:nth-of-type(4)"));
-        to = driver.findElement(By.cssSelector("table>thead>tr>th:nth-of-type(5)"));
         currentURL = driver.getCurrentUrl();
-        chooseButton = driver.findElement(By.xpath("//tr[3]/td/input"));
-        flightNum = driver.findElement(By.xpath("//tr[3]/td[2]"));
-        airline = driver.findElement(By.xpath("//tr[3]/td[3]"));
-        price = driver.findElement(By.xpath("//tr[3]/td[6]"));
     }
 
-    private WebElement from;
-    private WebElement to;
-    private WebElement chooseButton;
     private String currentURL;
-    private WebElement flightNum;
-    private WebElement airline;
-    private WebElement price;
 
     public boolean isInitialized() {
       return currentURL.equals("http://blazedemo.com/reserve.php");

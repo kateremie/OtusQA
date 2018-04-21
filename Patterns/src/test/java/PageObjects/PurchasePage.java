@@ -4,31 +4,39 @@ import PageObjects.Base.PageObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 
 public class PurchasePage extends PageObject {
+
+    @FindBy(css = "input[type='submit']")
+    private WebElement purchaseButton;
+
+    @FindBy(css = "div.container > p:nth-child(2)")
+    private WebElement airline;
+
+    @FindBy(css = "div.container > p:nth-child(3)")
+    private WebElement flightNum;
+
+    @FindBy(css = "div.container > p:nth-child(4)")
+    private WebElement price;
+
+    @FindBy(css = "div.container >p>em")
+    private WebElement totalCost;
+
+    @FindBy(css = "div.container > p:nth-child(5)")
+    private WebElement arbitraryFeesandTaxes;
+
+
     public PurchasePage(WebDriver driver) {
         super(driver);
-
         currentURL = driver.getCurrentUrl();
-        purchaseButton = driver.findElement(By.cssSelector("input[type='submit']"));
-        airline = driver.findElement(By.cssSelector("div.container > p:nth-child(2)"));
-        flightNum = driver.findElement(By.cssSelector("div.container > p:nth-child(3)"));
-        price = driver.findElement(By.cssSelector("div.container > p:nth-child(4)"));
-        totalCost = driver.findElement(By.cssSelector("div.container >p>em"));
-        arbitraryFeesandTaxes = driver.findElement(By.cssSelector("div.container > p:nth-child(5)"));
     }
 
     private String currentURL;
-    private WebElement purchaseButton;
-    private WebElement airline;
-    private WebElement flightNum;
-    private WebElement price;
-    private WebElement totalCost;
-    private WebElement arbitraryFeesandTaxes;
 
     public boolean isInitialized() {
         return currentURL.equals("http://blazedemo.com/purchase.php");

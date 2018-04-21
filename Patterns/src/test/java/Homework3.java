@@ -8,6 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import static constants.cons.*;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
@@ -17,19 +18,18 @@ public class Homework3 {
     @BeforeClass
     public void beforeClass() {
         driver = WebDriverManager.getInstance();
-        driver.get("http://blazedemo.com/");
+        driver.get(startURL);
     }
 
     @Test
     public void test(){
 
-        String depart = "Boston";
-        String arrive = "London";
-
         MainPage mainPage = new MainPage(driver);
         assertTrue(mainPage.isInitialized());
 
-        mainPage.enterData(depart, arrive);
+        //mainPage.enterData(depart, arrive);
+        mainPage.getFromPort().sendKeys(depart);
+        mainPage.getToPort().sendKeys(arrive);
 
         ReservePage reservePage = mainPage.submit();
         assertTrue(reservePage.isInitialized());
@@ -49,9 +49,6 @@ public class Homework3 {
         assertEquals(purchasePage.priceCheck(),price);
         assertEquals(purchasePage.deltaPrice(),Double.parseDouble(price));
 
-        String creditCardNumber = "3821 2918 9381 4321";
-        String creditCardMonth = "9";
-        String creditCardYear = "2021";
         purchasePage.personInformation(creditCardNumber, creditCardMonth, creditCardYear);
 
         ConfirmationPage confirmationPage = purchasePage.submit();
