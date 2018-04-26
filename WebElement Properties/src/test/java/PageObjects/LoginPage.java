@@ -25,11 +25,15 @@ public class LoginPage extends PageObject {
         return currentURL.equals("http://blazedemo.com/login");
     }
 
-    public String mouseMoveToLoginButton() {
+    public void mouseMoveToLoginButton() {
         Actions action = new Actions(driver);
         action.moveToElement(loginButton);
         action.perform();
 
+        return;
+    }
+
+    public String getLoginButtonBackgroundColor(){
         String backgroundColor = loginButton.getCssValue("background-color");
 
         return backgroundColor;

@@ -13,7 +13,7 @@ import static constants.cons.*;
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
-public class Homework4 {
+public class Homework4Test {
     protected WebDriver driver;
 
     @BeforeClass
@@ -33,13 +33,14 @@ public class Homework4 {
 
         Dimension loginButtonSizeBeforeMouseMove, loginButtonSizeAfterMouseMove;
         loginButtonSizeBeforeMouseMove = loginPage.getButtonSize();
-        assertEquals(loginPage.mouseMoveToLoginButton(), backgroundColar);
+        loginPage.mouseMoveToLoginButton();
         loginButtonSizeAfterMouseMove = loginPage.getButtonSize();
         assertEquals(loginButtonSizeAfterMouseMove,loginButtonSizeBeforeMouseMove);
+        assertEquals(loginPage.getLoginButtonBackgroundColor(), backgroundColar);
     }
 
     @AfterClass
     public void afterClass(){
-        driver.quit();
+        //driver.quit();
     }
 }
