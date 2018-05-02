@@ -8,8 +8,8 @@
             </class>
         </classes>
     </test>
-    <test name="FirefoxTest">
-        <parameter name="browser" value="firefox"/>
+    <test name="OperaTest">
+        <parameter name="browser" value="opera"/>
         <classes>
             <class name="Homework5Test">
             </class>

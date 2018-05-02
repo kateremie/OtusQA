@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
+import org.openqa.selenium.opera.OperaOptions;
 import org.testng.annotations.Parameters;
 
 public class WebDriverManager {
@@ -16,9 +18,11 @@ public class WebDriverManager {
                options.addArguments("--headless");
                driver = new ChromeDriver(options);
            }
-           else if(browser.equals("firefox")) {
-               io.github.bonigarcia.wdm.WebDriverManager.firefoxdriver().setup();
-               driver = new FirefoxDriver();
+           else if(browser.equals("opera")) {
+               io.github.bonigarcia.wdm.WebDriverManager.operadriver().setup();
+               OperaOptions optionsOP = new OperaOptions();
+               optionsOP.setBinary("C:/Program Files/Opera/launcher.exe");
+               driver = new OperaDriver(optionsOP);
            }
        return driver;
    }
