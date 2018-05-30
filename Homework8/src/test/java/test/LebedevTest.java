@@ -21,7 +21,7 @@ public class LebedevTest {
     public void chainTest(){
 
         enterToMainPage()
-                .clickOnToolsButton()
+                .goOnToolsPage()
                 .clickToMatrixButton()
                 .input(query)
                 .checkQueryResults(query);
