@@ -4,7 +4,6 @@ import io.qameta.allure.Attachment;
 import io.qameta.allure.Issue;
 import io.qameta.allure.Step;
 import io.qameta.allure.TmsLink;
-import javafx.scene.shape.Path;
 import org.testng.annotations.Test;
 
 import java.io.IOException;
@@ -23,12 +22,12 @@ public class AlliureTest {
         assertThat(2,is(2));
     }
 
-/*    @Test
+    @Test
     @Issue("AC-100")
     @TmsLink("10542")
     public void throwAnExceptionTest(){
         throw new IllegalStateException("Some strange thinks happened");
-    }*/
+    }
 
     @Test
     public void  attachmentsTest() throws IOException, URISyntaxException {
@@ -49,6 +48,8 @@ public class AlliureTest {
     }
 
     @Step("Inner step")
-    public void innerStep(){}
+    public void innerStep(){
+
+    }
 
 }
