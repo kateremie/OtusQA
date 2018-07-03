@@ -26,7 +26,7 @@ public class AllureTest {
     @Issue("AC-100")
     @TmsLink("10542")
     public void throwAnExceptionTest(){
-        throw new IllegalStateException("Some strange thinks happened");
+        //throw new IllegalStateException("Some strange thinks happened");
     }
 
     @Test
