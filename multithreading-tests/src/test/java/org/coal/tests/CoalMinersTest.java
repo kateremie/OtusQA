@@ -9,3 +9,5 @@ public class CoalMinersTest {
         new Thread(new CoalMiner(2)).start();
     }
 }
+
+//need this

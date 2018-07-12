@@ -1,7 +1,8 @@
 package threadsafe;
 
 public class ThreadSafe {
-    static ThreadLocal <WebDriver> threadSafeVariable = new ThreadLocal<WebDriver>();
+    //static ThreadLocal <WebDriver> threadSafeVariable = new ThreadLocal<WebDriver>();
+    static ThreadLocal <Integer> threadSafeVariable = new ThreadLocal<Integer>();
 
     public static void setThreadSafeVariable (Integer value){
        threadSafeVariable.set(value);

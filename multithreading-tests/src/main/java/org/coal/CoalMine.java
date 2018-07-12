@@ -14,3 +14,4 @@ public class CoalMine {
         }
     return capacity-=10;}
 }
+//and this
